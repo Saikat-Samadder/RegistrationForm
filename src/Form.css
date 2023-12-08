@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(125, 135, 132);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: row;
+}
+.heading{
+    background-color: blue;
+    align-items: center;
+    padding-left: 55px;
+    height: 53px;
+}
+.child{
+    background-color: rgb(152, 140, 140);
+    width: 120%;
+    height: 120%;
+}
+.form{
+    padding-left: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+.btn{
+    background-color: green;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: green;
+}
